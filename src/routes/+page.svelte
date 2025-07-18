@@ -24,15 +24,17 @@
         padding: 50px 20px 20px 40px; /* Remove left padding to truly hug left */
         font-style: italic;
         font-weight: 200; 
-        text-align: left;
+        text-align: left; 
+        white-space: nowrap /* prevent wrapping */ 
     } 
     
     /* responsive adjustments made for mobile */
     @media (max-width: 600px) {
         h1 {
-            font-size: 2em;               /* downsize font */
-            padding: 30px 10px 10px 10px; /* reduce padding */
-            max-width: 100vw;             /* use full viewport width */
+            font-size: 1.5em;               /* downsize font */
+            padding: 30px 10px 10px 10px;   /* reduce padding */
+            max-width: 100vw;               /* use full viewport width */
+            overflow-x: auto;               /* allow horizontal scroll if needed */
         }
         hr {
             margin-left: 5px;
