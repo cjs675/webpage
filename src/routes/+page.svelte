@@ -18,7 +18,7 @@
         letter-spacing: 2px; /* Adds to the sleek look */
     }
 
-    :global(body) {
+    :global(h1) {
         font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
         line-height: 1.6;
         color: #333;
