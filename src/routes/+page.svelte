@@ -25,8 +25,6 @@
         font-style: italic;
         font-weight: 200; 
         text-align: left;
-        white-space: nowrap; /* prevent wrapping of text */
-        overflow-x: auto;    /* allow horizontal scroll if needed */
     } 
     
     /* responsive adjustments made for mobile */

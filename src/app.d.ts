@@ -10,4 +10,7 @@ declare global {
 	}
 }
 
-export {};
+export {}; 
+
+// TS declaration file 
+// often used for global types or SK specific types 
