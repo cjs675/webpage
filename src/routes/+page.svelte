@@ -7,10 +7,7 @@
 </p>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,
-                wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,
-                wght@0,100;0,300;1,100;1,
-                300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
     h1 {
         color: #2c3e50;
