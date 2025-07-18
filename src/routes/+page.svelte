@@ -1,5 +1,6 @@
 <script lang="ts"> 
- import { ModeWatcher } from "mode-watcher";
+ import { ModeWatcher } from "mode-watcher"; 
+ import Footer from '$lib/components/Footer.svelte';
 </script> 
 
 <ModeWatcher />
@@ -8,7 +9,7 @@
 <p>
 
 </p>
-
+<Footer />
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
