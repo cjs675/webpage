@@ -20,20 +20,20 @@
         line-height: 1.6;
         max-width: 800px;
         margin: 0; /* Remove auto centering */
-        padding: 100px 20px 20px 40px; /* Remove left padding to truly hug left */
+        padding: 50px 20px 20px 40px; /* Remove left padding to truly hug left */
         font-style: italic;
-        font-weight: 300;
+        font-weight: 200;
     } 
     
     hr { 
         display: block;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        margin-left: auto;
+        margin-left: 100px;
         margin-right: auto;
         border-style: inset;
         border-width: 1px;
-        width: 50%;
+        width: 70%;
     }
 </style>
 
