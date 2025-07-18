@@ -38,7 +38,7 @@
             font-weight: 300;
         }
         hr {
-            margin-left: 5px;
+            margin-left: 0;
             width: 90%;
         }
     } 
