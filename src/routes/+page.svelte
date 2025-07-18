@@ -23,9 +23,24 @@
         margin: 0; /* Remove auto centering */
         padding: 50px 20px 20px 40px; /* Remove left padding to truly hug left */
         font-style: italic;
-        font-weight: 200;
+        font-weight: 200; 
+        text-align: left;
+        white-space: nowrap; /* prevent wrapping of text */
+        overflow-x: auto;    /* allow horizontal scroll if needed */
     } 
     
+    /* responsive adjustments made for mobile */
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 2em;               /* downsize font */
+            padding: 30px 10px 10px 10px; /* reduce padding */
+            max-width: 100vw;             /* use full viewport width */
+        }
+        hr {
+            margin-left: 10px;
+            width: 90%;
+        }
+    }
     hr { 
         display: block;
         margin-top: 0.5em;
