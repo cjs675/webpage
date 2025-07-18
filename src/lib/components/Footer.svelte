@@ -9,8 +9,11 @@
         bottom: 0;
         width: 100%;
         background-color: #3F5A36;
-        color: #3F5A36;
+        color: #FFF;
         text-align: center;
+        padding: 24px 0;        /* increase top & bottom padding */
+        min-height: 60px;       
+        font-size: 1em;
     }
 </style>
 
