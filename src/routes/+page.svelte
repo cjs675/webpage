@@ -34,7 +34,8 @@
             font-size: 1.5em;               /* downsize font */
             padding: 30px 10px 10px 10px;   /* reduce padding */
             max-width: 100vw;               /* use full viewport width */
-            overflow-x: auto;               /* allow horizontal scroll if needed */
+            overflow-x: auto;               /* allow horizontal scroll if needed */ 
+            font-weight: 300;
         }
         hr {
             margin-left: 5px;
