@@ -1,5 +1,8 @@
 <script lang="ts">
     import App from '$lib/App.svelte';
-</script>
+</script> 
 
+<body>
+    <h1>Public Module Development</h1>
+</body>
 <App />
