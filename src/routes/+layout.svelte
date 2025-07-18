@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.css';
     import { ModeWatcher } from "mode-watcher"; 
-    import ThemeToggle from '$lib/components/ThemeToggle.svelte';
-	let { children } = $props();
+    import ThemeToggle from '$lib/components/ThemeToggle.svelte'; 
+    import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
 <ModeWatcher /> 
@@ -10,13 +10,8 @@
 <header style="display: flex; justify-content: flex-end; padding: 1rem;">
     <ThemeToggle />
 </header>
-
-<nav>
-    <a href="/">home</a>
-    <a href="/about">about</a> 
-    <a href="/blog">blog</a> 
-    <a href="/resources">resources</a>
-</nav>
+<Navbar />
+<slot />
 
 
-{@render children()}
+
