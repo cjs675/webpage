@@ -35,10 +35,10 @@
             max-width: 100vw;             /* use full viewport width */
         }
         hr {
-            margin-left: 10px;
+            margin-left: 5px;
             width: 90%;
         }
-    }
+    } 
     hr { 
         display: block;
         margin-top: 0.5em;
@@ -49,5 +49,7 @@
         border-width: 1px;
         width: 70%;
     }
+    
+    
 </style>
 
