@@ -5,7 +5,7 @@
     import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<ModeWatcher /> 
+<ModeWatcher themeColors={{ dark: "#181a1b", light: "#FAF9F6" }} /> 
 
 <header style="display: flex; justify-content: flex-end; padding: 1rem;">
     <ThemeToggle />
