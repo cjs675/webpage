@@ -13,12 +13,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
-    :global(body) {
-            background: #FAF9F6; 
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-    }
+
     h1 {
         font-size: 3.2em;
         margin-bottom: 1em;
