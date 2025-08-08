@@ -13,6 +13,12 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
+    :global(body) {
+            background: #FAF9F6; 
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+    }
     h1 {
         font-size: 3.2em;
         margin-bottom: 1em;
@@ -27,8 +33,18 @@
         text-align: left; 
         white-space: nowrap /* prevent wrapping */ 
     } 
+    hr { 
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        width: 70%;
+    } 
     
-    /* responsive adjustments made for mobile */
+        /* responsive adjustments made for mobile */
     @media (max-width: 600px) {
         h1 {
             font-size: 1.5em;               /* downsize font */
@@ -42,16 +58,7 @@
             width: 90%;
         }
     } 
-    hr { 
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: 100px;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px;
-        width: 70%;
-    }
+
     
     
 </style>
