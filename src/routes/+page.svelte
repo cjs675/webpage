@@ -13,6 +13,18 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
+    :global(body) {
+        background:  #FAF9F6; /* light background */
+        min-height: 100vh; /* ensure full height */
+        margin: 0; /* remove default margin */
+        padding: 0; /* remove default padding */
+        color: #333;
+
+    }
+    :global(body.dark) {
+        background: #121212; /* dark background */
+        color: #E0E0E0; /* light text for dark mode */
+    }
 
     h1 {
         font-size: 3.2em;
